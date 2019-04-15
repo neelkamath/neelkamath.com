@@ -1,0 +1,15 @@
+.dart_tool/
+.packages
+build/
+
+doc/api/
+
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+.DS_Store
+.idea

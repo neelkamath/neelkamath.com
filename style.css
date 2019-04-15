@@ -1,0 +1,130 @@
+@keyframes expand {
+    from {
+        transform: scale(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-40em);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(40em);
+    }
+}
+
+a {
+    font-weight: bold;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: #00ffd0;
+}
+
+body {
+    background-color: #181818;
+    color: #FFFFFF;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.66em;
+    margin: 0 auto;
+    max-width: 35em;
+    padding: 0 1em;
+}
+
+code {
+    color: gray;
+    font-size: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    animation-duration: 1s;
+    animation-name: slideInFromLeft;
+    padding: 0.1em 0;
+}
+
+img, video {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+    height: auto;
+    max-width: 100%;
+}
+
+p, ul {
+    animation-duration: 1s;
+    animation-name: slideInFromRight;
+}
+
+.center {
+    text-align: center;
+}
+
+.dart {
+    color: #00B4AB;
+}
+
+.headerImg {
+    animation: fadeIn 2s, rotate 1s;
+    width: 1em;
+}
+
+.java {
+    color: #b07219;
+}
+
+.javaScript {
+    color: #f1e05a;
+}
+
+.language {
+    float: right;
+    font-size: 0.8em;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.orange {
+    color: #ffc300;
+}
+
+.python {
+    color: #3572A5;
+}
+
+#header {
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: expand;
+    background-color: white;
+    border-radius: 1em;
+    color: #181818;
+    font-size: 2.5em;
+    font-weight: bolder;
+    justify-content: center;
+    line-height: 1em;
+    margin: 0.5em;
+    padding: 0.25em;
+}
