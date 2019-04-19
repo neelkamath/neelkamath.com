@@ -36,7 +36,7 @@ a {
 }
 
 a, h1, h2, h3, h4, h5, h6, th {
-    color: #00ffd0;
+    color: #00e9ff;
 }
 
 body {
@@ -79,6 +79,12 @@ table {
     border-radius: 1em;
     border-spacing: 0;
     margin: 0 auto;
+}
+
+table iframe {
+    border: none;
+    height: 1em;
+    width: 1em;
 }
 
 table td + td, table th + th {
