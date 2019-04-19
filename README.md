@@ -26,11 +26,10 @@ Open `neelkamath.github.io/index.html` in your browser.
 
 # Documentation
 
+- Name files using `snake_case`.
 - Limit lines to 120 characters.
-- When adding a technology to the table in the `About` section, check if [DEVICON](https://konpa.github.io/devicon/) has an icon for it. If it does, place the first icon (the font version, not the SVG version) listed for it to the left of the technology's name.
-- The _Achievements_ section should be listed in reverse-chronological order.
-- The colors for the programming languages listed next to the projects they were used in should be taken from [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
-- Name files using snake_case.
+- Only use [DEVICON](https://konpa.github.io/devicon/) for developer tool icons. DEVICON has multiple icons for each tool. When using an icon from their site, only use the first one listed under `Font versions`.
+- The _Achievements_ section should list achievements in reverse-chronological order.
 
 # License
 

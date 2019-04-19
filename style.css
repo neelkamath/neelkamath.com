@@ -105,36 +105,27 @@ th {
     text-align: center;
 }
 
-.dart {
-    color: #00B4AB;
-}
-
 .header-img {
     animation: fade-in 2s, rotate 1s;
     width: 1em;
-}
-
-.java {
-    color: #b07219;
-}
-
-.javascript {
-    color: #f1e05a;
-}
-
-.language {
-    float: right;
-    font-size: 0.8em;
-    font-variant: small-caps;
-    font-weight: 900;
 }
 
 .no-underline {
     text-decoration: none;
 }
 
-.python {
-    color: #3572A5;
+.project {
+    padding-top: 1em;
+}
+
+.project a {
+    font-size: 1.5em;
+}
+
+.project i {
+    float: right;
+    font-size: 1.5em;
+    padding-left: 0.1em;
 }
 
 #header {
