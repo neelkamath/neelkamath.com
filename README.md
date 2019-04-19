@@ -26,6 +26,7 @@ Open `neelkamath.github.io/index.html` in your browser.
 
 # Documentation
 
+- When adding a technology to the `table` in the `About` section, check if [DEVICON](https://konpa.github.io/devicon/) has an icon for it. If it does, place the first icon listed for it next to the name of the technology.
 - The _Achievements_ section should be listed in reverse-chronological order.
 - The colors for the programming languages listed next to the projects they were used in should be taken from [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
 - Name files using snake_case.

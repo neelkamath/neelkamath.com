@@ -4,7 +4,7 @@
     }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
     from {
         opacity: 0;
     }
@@ -19,13 +19,13 @@
     }
 }
 
-@keyframes slideInFromLeft {
+@keyframes slide-in-from-left {
     from {
         transform: translateX(-40em);
     }
 }
 
-@keyframes slideInFromRight {
+@keyframes slide-in-from-right {
     from {
         transform: translateX(40em);
     }
@@ -35,7 +35,7 @@ a {
     font-weight: bold;
 }
 
-a, h1, h2, h3, h4, h5, h6 {
+a, h1, h2, h3, h4, h5, h6, th {
     color: #00ffd0;
 }
 
@@ -58,20 +58,41 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
     animation-duration: 1s;
-    animation-name: slideInFromLeft;
+    animation-name: slide-in-from-left;
     padding: 0.1em 0;
 }
 
 img, video {
     animation-duration: 2s;
-    animation-name: fadeIn;
+    animation-name: fade-in;
     height: auto;
     max-width: 100%;
 }
 
-p, ul {
+p, table, ul {
     animation-duration: 1s;
-    animation-name: slideInFromRight;
+    animation-name: slide-in-from-right;
+}
+
+table {
+    border: 0.1em solid gray;
+    border-radius: 1em;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+table td + td, table th + th {
+    border-left: 0.1em solid gray;
+}
+
+td {
+    border-top: 0.1em solid gray;
+    padding: 0.25em 1em;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
 }
 
 .center {
@@ -82,8 +103,8 @@ p, ul {
     color: #00B4AB;
 }
 
-.headerImg {
-    animation: fadeIn 2s, rotate 1s;
+.header-img {
+    animation: fade-in 2s, rotate 1s;
     width: 1em;
 }
 
@@ -91,7 +112,7 @@ p, ul {
     color: #b07219;
 }
 
-.javaScript {
+.javascript {
     color: #f1e05a;
 }
 
@@ -102,12 +123,8 @@ p, ul {
     font-weight: 900;
 }
 
-.noUnderline {
+.no-underline {
     text-decoration: none;
-}
-
-.orange {
-    color: #ffc300;
 }
 
 .python {
