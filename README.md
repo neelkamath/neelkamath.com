@@ -28,8 +28,7 @@ Open `neelkamath.github.io/index.html` in your browser.
 
 - Name files using `snake_case`.
 - Limit lines to 120 characters.
-- Only use [DEVICON](https://konpa.github.io/devicon/) for developer tool icons. DEVICON has multiple icons for each tool. When using an icon from their site, only use the first one listed under `Font versions`.
-- The _Achievements_ section should list achievements in reverse-chronological order.
+- Only use [DEVICON](https://konpa.github.io/devicon/) for developer tool icons. For any other icon, only use [Font Awesome](https://fontawesome.com/). DEVICON has multiple icons for each tool. When using an icon from their site, only use the first one listed under `Font versions`.
 
 # License
 

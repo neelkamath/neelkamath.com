@@ -21,13 +21,13 @@
 
 @keyframes slide-in-from-left {
     from {
-        transform: translateX(-40em);
+        transform: translateX(-75em);
     }
 }
 
 @keyframes slide-in-from-right {
     from {
-        transform: translateX(40em);
+        transform: translateX(75em);
     }
 }
 
@@ -42,7 +42,7 @@ a, h1, h2, h3, h4, h5, h6, th {
 body {
     background-color: #181818;
     color: #FFFFFF;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
     letter-spacing: -0.01em;
     line-height: 1.66em;
@@ -56,10 +56,9 @@ code {
     font-size: 1.25em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .project {
     animation-duration: 1s;
     animation-name: slide-in-from-left;
-    padding: 0.1em 0;
 }
 
 img, video {
@@ -115,7 +114,7 @@ th {
 }
 
 .project {
-    padding-top: 1em;
+    padding-top: 0.75em;
 }
 
 .project a {
