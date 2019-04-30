@@ -27,7 +27,7 @@ Open `neelkamath.github.io/index.html` in your browser.
 # Documentation
 
 - Name files using `snake_case`.
-- Limit lines to 120 characters.
+- Limit lines to 120 characters except where impractical (e.g., SVGs).
 - Only use [DEVICON](https://konpa.github.io/devicon/) for developer tool icons. For any other icon, only use [Font Awesome](https://fontawesome.com/). DEVICON has multiple icons for each tool. When using an icon from their site, only use the first one listed under `Font versions`.
 
 # License
