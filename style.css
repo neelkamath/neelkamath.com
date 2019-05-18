@@ -31,11 +31,17 @@
     }
 }
 
+@keyframes spin {
+    from {
+        transform: rotateY(360deg);
+    }
+}
+
 a {
     font-weight: bold;
 }
 
-a, h1, h2, h3, h4, h5, h6, th {
+a, h1, h2, h3, h4, h5, h6 {
     color: #00e9ff;
 }
 
@@ -49,11 +55,6 @@ body {
     margin: 0 auto;
     max-width: 35em;
     padding: 0 1em;
-}
-
-code {
-    color: gray;
-    font-size: 1.25em;
 }
 
 h1, h2, h3, h4, h5, h6, .project {
@@ -74,29 +75,16 @@ p, table, ul {
 }
 
 table {
-    border: 0.1em solid gray;
-    border-radius: 1em;
-    border-spacing: 0;
-    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 table img {
-    height: 1em;
-    width: 1em;
-}
-
-table td + td, table th + th {
-    border-left: 0.1em solid gray;
-}
-
-td {
-    border-top: 0.1em solid gray;
-    padding: 0.25em 1em;
-    text-align: center;
-}
-
-th {
-    padding: 0.5em;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+    width: 3.5em;
 }
 
 .center {
@@ -139,4 +127,12 @@ th {
 #header img {
     animation: fade-in 2s, rotate 1s;
     width: 1em;
+}
+
+#languages img {
+    width: 3.75em;
+}
+
+#tools img {
+    width: 2.25em;
 }
