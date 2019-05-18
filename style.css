@@ -47,7 +47,7 @@ a, h1, h2, h3, h4, h5, h6 {
 
 body {
     /* macOS bounces while scrolling, which exposes the background color above and below the website. */
-    background-color: #181818;
+    background-color: black;
     
     background-image: url("media/background.png");
     background-repeat: round;
@@ -82,6 +82,7 @@ p, table, ul {
 table {
     height: 100%;
     text-align: center;
+    font-size: 0.8em;
     width: 100%;
 }
 
@@ -89,7 +90,6 @@ table img {
     animation-iteration-count: infinite;
     animation-name: spin;
     animation-timing-function: linear;
-    width: 3.5em;
 }
 
 .center {
@@ -108,6 +108,10 @@ table img {
     float: right;
     font-size: 1.5em;
     padding-left: 0.1em;
+}
+
+.screenshot {
+    border-radius: 0.25em;
 }
 
 #header {
@@ -135,9 +139,9 @@ table img {
 }
 
 #languages img {
-    width: 3.75em;
+    width: 3.66em;
 }
 
 #tools img {
-    width: 2.25em;
+    width: 2.33em;
 }
