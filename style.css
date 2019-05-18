@@ -46,7 +46,12 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    /* macOS bounces while scrolling, which exposes the background color above and below the website. */
     background-color: #181818;
+    
+    background-image: url("media/background.png");
+    background-repeat: round;
+    background-size: 100%;
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
