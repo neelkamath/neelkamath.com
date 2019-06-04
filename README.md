@@ -1,6 +1,6 @@
 # neelkamath.com
 
-This is my [personal website](http://neelkamath.com).
+This is my [personal website](https://neelkamath.com).
 
 ## Installation
 
