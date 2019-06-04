@@ -30,6 +30,8 @@ Open `neelkamath.github.io/index.html` in your browser.
 
 ### Web Components
 
+Browsers seem to implement the shadow DOM differently. In Safari, stylesheets located on other websites work fine when loaded only in the shadow DOM. However, in Chrome, the stylesheet must be in the HTML's head tag as well as the Shadow DOM. Hence, stylesheets used only in a shadow DOM are present globally as well.
+
 #### Project: `project-data`
 
 The stylesheets used are [`src/styles/project_data.css`](src/styles/project_data.css) and [https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css](https://konpa.github.io/devicon/).
