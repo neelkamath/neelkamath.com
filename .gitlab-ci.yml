@@ -7,15 +7,3 @@ test:
   script:
     - pub get
     - pub run test
-
-pages:
-  stage: deploy
-  script:
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
-  artifacts:
-    paths:
-      - public
-  only:
-    - master

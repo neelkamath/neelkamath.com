@@ -3,132 +3,131 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="media/favicon.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="src/styles/index.css" rel="stylesheet">
+    <link href="src/media/favicon.png" rel="icon">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" rel="stylesheet">
     <meta charset="utf-8">
-    <meta name="author" content="Neel Kamath">
-    <meta name="description"
-        content="Undergraduate student studying Computer Science Engineering at PESU, Electronic City Campus who enjoys writing servers">
-    <meta name="keywords" content="Neel Kamath programming developer">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Neel Kamath" name="author">
+    <meta content="Undergraduate student studying Computer Science Engineering at PESU" name="description">
+    <meta content="Neel Kamath programming developer" name="keywords">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Neel Kamath</title>
 </head>
 
 <body>
 
-    <div id="header">
-        Neel Kamath
-        <br>
-        <a href="https://github.com/neelkamath"><img src="media/header_icons/github.png" alt="GitHub"></a>
-        <a href="https://www.hackerrank.com/neelkamath">
-            <img src="media/header_icons/hackerrank.png" alt="HackerRank">
-        </a>
-        <a href="https://www.linkedin.com/in/neelkamath/">
-            <img src="media/header_icons/linkedin.png" alt="LinkedIn">
-        </a>
-        <a href="mailto:neelkamath@icloud.com"><img src="media/header_icons/email.png" alt="email"></a>
-    </div>
+<div id="header">
+    Neel Kamath
+    <br>
+    <a href="https://github.com/neelkamath"><img alt="GitHub" src="src/media/header_icons/github.png"></a>
+    <a href="https://www.hackerrank.com/neelkamath">
+        <img alt="HackerRank" src="src/media/header_icons/hackerrank.png">
+    </a>
+    <a href="https://www.linkedin.com/in/neelkamath/">
+        <img alt="LinkedIn" src="src/media/header_icons/linkedin.png">
+    </a>
+    <a href="mailto:neelkamath@icloud.com"><img alt="email" src="src/media/header_icons/email.png"></a>
+</div>
 
-    <h1>About</h1>
+<h1>About</h1>
 
-    <p>
-        <i class="fas fa-university"></i> CSE Undergraduate, PESU</a>
-        <br>
-        <table id="languages">
-            <tr>
-                <td><img alt="Kotlin" src="media/about/kotlin.png"></td>
-                <td><img alt="JavaScript" src="media/about/javascript.jpg"></td>
-                <td><img alt="Java" src="media/about/java.png"></td>
-                <td><img alt="PostgreSQL" src="media/about/postgresql.png"></td>
-            </tr>
-            <tr>
-                <td>Kotlin</td>
-                <td>JavaScript</td>
-                <td>Java</td>
-                <td>PostgreSQL</td>
-            </tr>
-        </table>
-        <br>
-        <table id="tools">
-            <tr>
-                <td><img alt="GitLab" src="media/about/gitlab.png"></td>
-                <td><img alt="JUnit 5" src="media/about/junit5.png"></td>
-                <td><img alt="Cucumber" src="media/about/cucumber.png"></td>
-            </tr>
-            <tr>
-                <td>CI/CD</td>
-                <td>TDD</td>
-                <td>BDD</td>
-            </tr>
-        </table>
-    </p>
+<div id="info">
+    <i class="fas fa-university"></i> CSE Undergraduate, PESU
+</div>
+<br>
+<table class="languages">
+    <tr>
+        <td><img alt="Kotlin" src="src/media/about/kotlin.png"></td>
+        <td><img alt="Java" src="src/media/about/java.png"></td>
+        <td><img alt="PostgreSQL" src="src/media/about/postgresql.png"></td>
+    </tr>
+    <tr>
+        <td>Kotlin</td>
+        <td>Java</td>
+        <td>PostgreSQL</td>
+    </tr>
+</table>
+<table class="languages">
+    <tr>
+        <td><img alt="HTML" src="src/media/about/html.png"></td>
+        <td><img alt="CSS" src="src/media/about/css.png"></td>
+        <td><img alt="JavaScript" src="src/media/about/javascript.jpg"></td>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JavaScript</td>
+    </tr>
+</table>
+<br>
+<table id="tools">
+    <tr>
+        <td><img alt="GitLab" src="src/media/about/gitlab.png"></td>
+        <td><img alt="JUnit 5" src="src/media/about/junit.png"></td>
+        <td><img alt="Cucumber" src="src/media/about/cucumber.png"></td>
+    </tr>
+    <tr>
+        <td>CI/CD</td>
+        <td>TDD</td>
+        <td>BDD</td>
+    </tr>
+</table>
 
-    <h1>Achievements</h1>
+<h1>Achievements</h1>
 
-    <ul>
-        <li>
-            <a href="media/achievements/ingenius_top_10.jpg">Top 10</a> of 100+ teams in inGenius 2018 hackathon
-        </li>
-        <li>
-            <a href="media/achievements/inout_participant.pdf">Top 5%</a> of 4500+ applicants from 10+ countries in
-            InOut 5.0 hackathon
-        </li>
-        <li>Class Representative and maintainer of unofficial filesystem for first year of undergrad</li>
-        <li>
-            <a href="media/achievements/freelancing.png">Freelanced</a> Android app
-        </li>
-        <li>
-            <a href="https://github.com/gkbrk/hackchat/pull/8">Updated</a> hackchat Python package with automated
-            concurrent connections
-        </li>
-    </ul>
+<ul>
+    <li>
+        <a href="src/media/achievements/ingenius_top_10.jpg">Top 10</a> of 100+ teams in inGenius 2018 hackathon
+    </li>
+    <li>
+        <a href="src/media/achievements/inout_participant.pdf">Top 5%</a> of 4500+ applicants from 10+ countries in
+        InOut 5.0 hackathon
+    </li>
+    <li>Class Representative and maintainer of unofficial filesystem for first year of undergrad</li>
+    <li>
+        <a href="src/media/achievements/freelancing.png">Freelanced</a> Android app
+    </li>
+    <li>
+        <a href="https://github.com/gkbrk/hackchat/pull/8">Updated</a> hackchat Python package with automated
+        concurrent connections
+    </li>
+</ul>
 
-    <h1>Projects</h1>
+<h1>Projects</h1>
 
-    <div class="project">
-        <a href="https://github.com/neelkamath/time-bend-android">Time Bend</a>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-android-plain"></i>
-    </div>
-    <p>
-        <a href="https://play.google.com/store/apps/details?id=io.github.neelkamath.timebend">Play Store</a>
-        productivity app
-    </p>
-    <img alt="screenshot" class="screenshot" src="media/projects/time_bend.png">
+<project-data
+        description="<a href='https://play.google.com/store/apps/details?id=io.github.neelkamath.timebend'>Play Store</a> productivity app"
+        icons="<i class='devicon-java-plain'></i> <i class='devicon-android-plain'></i>"
+        img="src/media/projects/time_bend.png"
+        link="https://github.com/neelkamath/time-bend-android"
+        name="Time Bend"
+></project-data>
 
-    <div class="project"><a href="https://github.com/neelkamath/link-checker">Link Checker</a></div>
-    <p>
-        <a href="https://pub.dartlang.org/packages/link_checker">Dart package</a> to efficiently find dead links in
-        entire project
-    </p>
+<project-data
+        description="<a href='https://pub.dartlang.org/packages/link_checker'>Dart package</a> to efficiently find dead links in entire project"
+        link="https://github.com/neelkamath/link-checker"
+        name="Link Checker"
+></project-data>
 
-    <div class="project">
-        <a href="https://github.com/neelkamath/news-checker">News Checker</a>
-        <i class="devicon-postgresql-plain"></i>
-        <i class="devicon-heroku-original"></i>
-    </div>
-    <p>
-        Dart HTTP API written to detect fake news (<a href="https://news-detector.netlify.com">PWA</a> by classmate)
-    </p>
-    <img alt="screenshot" class="screenshot" src="media/projects/news_checker.png">
+<project-data
+        description="Dart HTTP API written to detect fake news (<a href='https://news-detector.netlify.com'>PWA</a> by classmate)"
+        icons="<i class='devicon-postgresql-plain'></i> <i class='devicon-heroku-original'></i>"
+        img="src/media/projects/news_checker.png"
+        link="https://github.com/neelkamath/news-checker"
+        name="News Checker"
+></project-data>
 
-    <div class="project">
-        <a href="https://github.com/neelkamath/goal-ninja">Goal Ninja</a>
-        <i class="devicon-android-plain"></i>
-        <i class="devicon-java-plain"></i>
-    </div>
-    <p>
-        <a href="https://play.google.com/store/apps/details?id=io.github.neelkamath.goalninja">Play Store</a> app for
-        goals using <a href="https://www.youtube.com/watch?v=jvBaRf9LHDs">"How to Become a Millionaire in 3 Years"</a>
-        and <a href="https://en.wikipedia.org/wiki/SMART_criteria">SMART criteria</a>
-    </p>
+<project-data
+        description="<a href='https://play.google.com/store/apps/details?id=io.github.neelkamath.goalninja'>Play Store</a> app for goals using <a href='https://www.youtube.com/watch?v=jvBaRf9LHDs'>&quot;How to Become a Millionaire in 3 Years&quot;</a>and <a href='https://en.wikipedia.org/wiki/SMART_criteria'>SMART criteria</a>"
+        icons="<i class='devicon-android-plain'></i> <i class='devicon-java-plain'></i>"
+        link="https://github.com/neelkamath/goal-ninja"
+        name="Goal Ninja"
+></project-data>
 
-    <br><br>
+<br><br>
 
+<script src="src/index.js"></script>
 </body>
 
 </html>

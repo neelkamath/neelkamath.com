@@ -1,0 +1,68 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-from-left {
+    from {
+        transform: translateX(-75em);
+    }
+}
+
+@keyframes slide-in-from-right {
+    from {
+        transform: translateX(75em);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(360deg);
+    }
+}
+
+a {
+    font-weight: bold;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: #00e9ff;
+}
+
+body {
+    /* macOS bounces while scrolling, which exposes the background color above and below the website. */
+    background-color: black;
+
+    background-image: url("../media/background.png");
+    background-repeat: round;
+    background-size: 100%;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.66em;
+    margin: 0 auto;
+    max-width: 35em;
+    padding: 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    animation-duration: 1s;
+    animation-name: slide-in-from-left;
+}
+
+img, video {
+    animation-duration: 2s;
+    animation-name: fade-in;
+    height: auto;
+    max-width: 100%;
+}
+
+p, table, ul {
+    animation-duration: 1s;
+    animation-name: slide-in-from-right;
+}
