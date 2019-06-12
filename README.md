@@ -44,6 +44,10 @@ The stylesheets used are [`src/styles/project_data.css`](src/styles/project_data
 |`description`|HTML description|`<a href='https://play.google.com/store/apps/details?id=io.github.neelkamath.timebend'>Play Store</a> productivity app`|No|
 |`img`|Screenshot source|`src/media/projects/time_bend.png`|Yes|
 
+## Credits
+
+The background image is an edited wallpaper from [WLPPR](http://wlppr.co/).
+
 ## License
 
 This project is under the [MIT license](LICENSE).
