@@ -38,7 +38,7 @@ Browsers seem to implement the shadow DOM differently. In Safari, stylesheets lo
 |:-------:|-----------|-------|:------:|
 |`link`|URL|`https://github.com/neelkamath/time-bend-android`|No|
 |`name`|Name|`Time Bend`|No|
-|`icons`|Icons from [DEVICON](https://konpa.github.io/devicon/) of technologies used (list in reverse order of appearance)|`<i class='devicon-java-plain'></i> <i class='devicon-android-plain'></i>`|Yes|
+|`icons`|Icons from [DEVICON](https://konpa.github.io/devicon/) of technologies used (listed in reverse order of appearance)|`<i class='devicon-java-plain'></i> <i class='devicon-android-plain'></i>`|Yes|
 |`description`|HTML description|`<a href='https://play.google.com/store/apps/details?id=io.github.neelkamath.timebend'>Play Store</a> productivity app`|No|
 |`img`|Screenshot source|`src/media/projects/time_bend.png`|Yes|
 
