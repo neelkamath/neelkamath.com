@@ -37,7 +37,7 @@ body {
     /* macOS bounces while scrolling, which exposes the background color above and below the website. */
     background-color: black;
 
-    background-image: url('../media/background.png');
+    background-image: url('../media/background.jpg');
     background-repeat: round;
     background-size: 100%;
     color: #FFFFFF;
