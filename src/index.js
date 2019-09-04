@@ -1,41 +1,52 @@
 customElements.define('project-data', class extends HTMLElement {
     constructor() {
         super();
-
         const shadow = this.attachShadow({mode: 'open'});
+        shadow.append(this._getStyleLink(), this._getIconLink(), this._getHeading(), this._getDescription());
+        if (this.hasAttribute('img')) shadow.append(this._getImage());
+    }
 
-        let styleLink = document.createElement('link');
-        styleLink.href = 'src/styles/project_data.css';
-        styleLink.rel = 'stylesheet';
-        shadow.appendChild(styleLink);
+    _getDescription() {
+        const p = document.createElement('p');
+        p.append(...this.childNodes);
+        return p;
+    }
 
-        let iconLink = document.createElement('link');
-        iconLink.href = 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css';
-        iconLink.rel = 'stylesheet';
-        shadow.appendChild(iconLink);
+    _getStyleLink() {
+        const link = document.createElement('link');
+        link.href = 'src/styles/project_data.css';
+        link.rel = 'stylesheet';
+        return link;
+    }
 
-        let div = document.createElement('div');
+    _getIconLink() {
+        const link = document.createElement('link');
+        link.href = 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css';
+        link.rel = 'stylesheet';
+        return link;
+    }
+
+    _getHeading() {
+        const div = document.createElement('div');
         div.className = 'project';
-        let a = document.createElement('a');
+        const a = document.createElement('a');
         a.href = this.getAttribute('link');
         a.innerText = this.getAttribute('name');
         div.appendChild(a);
         if (this.hasAttribute('icons')) {
-            let span = document.createElement('span');
-            span.innerHTML = this.getAttribute('icons');
+            const span = document.createElement('span');
+            for (const className of this.getAttribute('icons').split(' ')) {
+                span.innerHTML += `<i class="${className}"></i>`;
+            }
             div.appendChild(span);
         }
-        shadow.appendChild(div);
+        return div;
+    }
 
-        let p = document.createElement('p');
-        p.innerHTML = this.getAttribute('description');
-        shadow.appendChild(p);
-
-        if (this.hasAttribute('img')) {
-            let img = document.createElement('img');
-            img.alt = 'screenshot';
-            img.src = this.getAttribute('img');
-            shadow.appendChild(img);
-        }
+    _getImage() {
+        const img = document.createElement('img');
+        img.alt = 'screenshot';
+        img.src = this.getAttribute('img');
+        return img;
     }
 });

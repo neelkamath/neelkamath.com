@@ -25,10 +25,6 @@ table img {
     animation-timing-function: linear;
 }
 
-.tech img {
-    width: 3.66em;
-}
-
 #header {
     text-align: center;
     animation-duration: 1s;
@@ -56,4 +52,8 @@ table img {
 #info {
     animation-duration: 1s;
     animation-name: slide-in-from-left;
+}
+
+#tech img {
+    width: 3.66em;
 }
