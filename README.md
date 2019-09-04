@@ -12,17 +12,6 @@ Clone the repository using one of the following methods.
 
 Open `neelkamath.github.io/index.html` in your browser.
 
-## Testing
-
-### Setup
-
-1. Install [Server Dart 2](https://www.dartlang.org/tools/sdk#install).
-1. `pub get`
-
-### Test
-
-`pub run test`
-
 ## Documentation
 
 - Use `snake_case` to name files and directories.

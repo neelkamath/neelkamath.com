@@ -1,9 +1,0 @@
-image: google/dart:2.1.0
-
-format:
-  script: bash bin/format.sh
-
-test:
-  script:
-    - pub get
-    - pub run test
