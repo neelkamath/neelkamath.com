@@ -34,12 +34,10 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    /* macOS bounces while scrolling, which exposes the background color above and below the website. */
-    background-color: black;
-
+    background-attachment: fixed;
     background-image: url('../media/background.jpg');
-    background-repeat: round;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
@@ -58,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 img, video {
     animation-duration: 2s;
     animation-name: fade-in;
+    border-radius: 2%;
     height: auto;
     max-width: 100%;
 }
