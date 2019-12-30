@@ -35,6 +35,7 @@ a, h1, h2, h3, h4, h5, h6 {
 
 body {
     background-attachment: fixed;
+    background-color: black;
     background-image: url('../media/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;

@@ -46,7 +46,7 @@ table img {
 
 #header img {
     animation: fade-in 2s, rotate 1s;
-    width: 1em;
+    width: 0.75em;
 }
 
 #info {
