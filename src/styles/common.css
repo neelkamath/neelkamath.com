@@ -7,18 +7,6 @@
     }
 }
 
-@keyframes slide-in-from-left {
-    from {
-        transform: translateX(-75em);
-    }
-}
-
-@keyframes slide-in-from-right {
-    from {
-        transform: translateX(75em);
-    }
-}
-
 @keyframes spin {
     from {
         transform: rotateY(360deg);
@@ -35,7 +23,14 @@ a, h1, h2, h3, h4, h5, h6 {
 
 body {
     background-attachment: fixed;
-    background-color: black;
+
+    /*
+        We apply a background color in addition to the background image because Apple devices scroll past the actual
+        height and width. Instead of revealing an ugly distracting white, we'll put a subtle color which matches the
+        background image.
+    */
+    background-color: #02121B;
+
     background-image: url('../media/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,20 +44,10 @@ body {
     padding: 0 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    animation-duration: 1s;
-    animation-name: slide-in-from-left;
-}
-
 img, video {
     animation-duration: 2s;
     animation-name: fade-in;
     border-radius: 2%;
     height: auto;
     max-width: 100%;
-}
-
-p, table, ul {
-    animation-duration: 1s;
-    animation-name: slide-in-from-right;
 }

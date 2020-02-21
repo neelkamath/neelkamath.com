@@ -45,7 +45,6 @@ customElements.define('project-data', class extends HTMLElement {
 
     _getImage() {
         const img = document.createElement('img');
-        img.alt = 'screenshot';
         img.src = this.getAttribute('img');
         return img;
     }

@@ -1,11 +1,5 @@
 @import 'common.css';
 
-@keyframes expand {
-    from {
-        transform: scale(0);
-    }
-}
-
 @keyframes rotate {
     from {
         transform: rotate(360deg);
@@ -25,10 +19,12 @@ table img {
     animation-timing-function: linear;
 }
 
+.skills img {
+    width: 4em;
+}
+
 #header {
     text-align: center;
-    animation-duration: 1s;
-    animation-name: expand;
     background-color: white;
     border-radius: 1em;
     color: black;
@@ -45,15 +41,6 @@ table img {
 }
 
 #header img {
-    animation: fade-in 2s, rotate 1s;
+    animation: fade-in 1s, rotate 0.5s;
     width: 0.75em;
-}
-
-#info {
-    animation-duration: 1s;
-    animation-name: slide-in-from-left;
-}
-
-#tech img {
-    width: 4em;
 }
