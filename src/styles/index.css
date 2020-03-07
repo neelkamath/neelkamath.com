@@ -1,11 +1,5 @@
 @import 'common.css';
 
-@keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-}
-
 table {
     height: 100%;
     text-align: center;
@@ -41,6 +35,5 @@ table img {
 }
 
 #header img {
-    animation: fade-in 1s, rotate 0.5s;
     width: 0.75em;
 }

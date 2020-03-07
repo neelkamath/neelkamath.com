@@ -14,6 +14,12 @@ Open `neelkamath.github.io/index.html` in your browser.
 
 ## Contributing
 
+### Forking the Repository
+
+If you're forking the repository to develop the project as your own instead of just to send back a PR, you can deploy the site to [Netlify](http://netlify.com/).
+
+### Developing
+
 The skills section should list the [technologies I know](https://gist.github.com/neelkamath/2333e0502c0d16f7db3abde1b1830ef4). Link to the tech's homepage (e.g., official page, Wikipedia page, homepage of a tool which implements the concept).
 
 Browsers seem to implement the shadow DOM differently. In Safari, stylesheets located on other websites work fine when loaded only in the shadow DOM. However, in Chrome, the stylesheet must be in the HTML's head tag as well as the Shadow DOM. Hence, stylesheets used only in a shadow DOM are present globally as well.
