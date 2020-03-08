@@ -14,6 +14,7 @@ table img {
 }
 
 .skills img {
+    animation-duration: 2s;
     width: 4em;
 }
 

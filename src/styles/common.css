@@ -45,7 +45,7 @@ body {
 }
 
 img, video {
-    animation-duration: 0.250s;
+    animation-duration: 1s;
     animation-name: fade-in;
     border-radius: 2%;
     height: auto;
