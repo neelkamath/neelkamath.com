@@ -33,3 +33,7 @@ Saves the production build to the `dist` directory.
 
 - Accent color: `#00e9ff`
 - Background color: `#02121B`
+
+### Releases
+
+Commits to the `master` branch automatically deploy the site via Netlify. If you want to mark a particular point in history of the site, create a GitHub release.

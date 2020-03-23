@@ -1,15 +1,15 @@
 // @ts-ignore: Cannot find module
-import GitHubIcon from '../public/header_icons/github.png';
+import GitHubIcon from './header_icons/github.png';
 // @ts-ignore: Cannot find module.
-import GmailIcon from '../public/header_icons/gmail.png';
+import GmailIcon from './header_icons/gmail.png';
 // @ts-ignore: Cannot find module.
-import LinkedInIcon from '../public/header_icons/linkedin.png';
+import LinkedInIcon from './header_icons/linkedin.png';
 // @ts-ignore: Cannot find module.
-import HackerRankIcon from '../public/header_icons/hackerrank.png';
+import HackerRankIcon from './header_icons/hackerrank.png';
 // @ts-ignore: Cannot find module.
-import StackOverflowIcon from '../public/header_icons/stackoverflow.png';
+import StackOverflowIcon from './header_icons/stackoverflow.png';
 // @ts-ignore: Cannot find module.
-import CodeStatsIcon from '../public/header_icons/code_stats.svg';
+import CodeStatsIcon from './header_icons/code_stats.svg';
 import React from 'react';
 import styled from 'styled-components';
 import SocialHandle from './SocialHandle';
