@@ -9,7 +9,7 @@ export default function ApolloPrototypeProject(): ReactElement {
         <Project
             name='Apollo Prototype'
             github='https://github.com/neelkamath/apollo-prototype'
-            icons={['devicon-docker-plain']}
+            icons={['devicon-docker-plain', 'devicon-mongodb-plain']}
             image={ApolloImage}
             imageAltText='Traffic'
         >
