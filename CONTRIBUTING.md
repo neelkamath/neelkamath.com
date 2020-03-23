@@ -15,8 +15,7 @@ If you're forking the repository to develop the project as your own instead of t
 
 ## Developing
 
-- Use the [`ExternalLink`](src/ExternalLink.tsx) component instead `<a target="_blank"></a>`.
-- The skills section should list the [technologies I know](https://gist.github.com/neelkamath/2333e0502c0d16f7db3abde1b1830ef4). Each skill should link to the tech's homepage (e.g., official page, Wikipedia page, homepage of a tool which implements the concept).
+Use the [`ExternalLink`](src/ExternalLink.tsx) component instead `<a target="_blank"></a>`.
 
 ### Development
 

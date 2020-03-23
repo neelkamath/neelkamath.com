@@ -12,7 +12,7 @@ import StackOverflowIcon from '../public/header_icons/stackoverflow.png';
 import CodeStatsIcon from '../public/header_icons/code_stats.svg';
 import React from 'react';
 import styled from 'styled-components';
-import SocialHandle from './A';
+import SocialHandle from './SocialHandle';
 
 export default function Header() {
     return (
