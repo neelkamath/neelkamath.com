@@ -15,8 +15,6 @@ If you're forking the repository to develop the project as your own instead of t
 
 ## Developing
 
-Use the [`ExternalLink`](src/ExternalLink.tsx) component instead `<a target="_blank"></a>`.
-
 ### Development
 
 ```

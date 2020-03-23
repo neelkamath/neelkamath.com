@@ -42,5 +42,6 @@ const Div = styled.div`
     font-weight: bolder;
     justify-content: center;
     margin: 0.5em;
+    margin-top: 8em;
     padding: 0.25em;
 `;
