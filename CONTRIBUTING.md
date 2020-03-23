@@ -2,7 +2,7 @@
 
 ## Forking the Repository
 
-If you're forking the repository to develop the project as your own instead of to just send back a PR, deploy the site to [Netlify](http://netlify.com/). The configuration will automatically be picked up from the [`netlify.toml`](netlify.toml) file.
+If you want, you can deploy the site to [Netlify](http://netlify.com/). The configuration will automatically be picked up from the [`netlify.toml`](netlify.toml) file.
 
 ## Installation
 
@@ -14,6 +14,8 @@ If you're forking the repository to develop the project as your own instead of t
 1. `npm i`
 
 ## Developing
+
+Use the [`ExternalLink`](src/ExternalLink.tsx) component for links which open in a new tab.
 
 ### Development
 

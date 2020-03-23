@@ -1,28 +1,15 @@
-a, h1, h2, h3, h4, h5, h6 {
-    color: #00e9ff;
+* {
+    color: white;
 }
 
 body {
-    background-attachment: fixed;
-
     /*
         We apply a background color in addition to the background image because Apple devices scroll past the actual
         height and width. Instead of revealing an ugly distracting white, we'll put a subtle color which matches the
         background image.
     */
-    background-color: #02121B;
-
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
+    background: #02121B url('background.jpg') no-repeat fixed;
     background-size: cover;
-    color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
-    margin: 0 auto;
-    max-width: 35em;
-    padding: 0 1em;
-}
-
-img, video {
-    height: auto;
-    max-width: 100%;
+    margin: 0;
 }

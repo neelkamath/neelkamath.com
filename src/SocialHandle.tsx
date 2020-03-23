@@ -1,5 +1,6 @@
 import React, {ReactElement} from 'react';
 import styled from 'styled-components';
+import ExternalLink from './ExternalLink';
 
 export interface SocialHandleProps {
     /** URL (e.g., `'https://github.com/johndoe'`). */
@@ -12,17 +13,17 @@ export interface SocialHandleProps {
 
 export default function SocialHandle(props: SocialHandleProps): ReactElement {
     return (
-        <A href={props.href} target='_blank' rel='noopener'>
+        <StyledExternalLink href={props.href}>
             <Img alt={props.alt} src={props.img}/>
-        </A>
+        </StyledExternalLink>
     );
 }
 
-const A = styled.a`
+const StyledExternalLink = styled(ExternalLink)`
     text-decoration: none;
-`;
+` as typeof ExternalLink;
 
 const Img = styled.img`
-    margin: 0 0.1em;
-    width: 0.75em;
+    margin: 0.25em 0.5em;
+    width: 2.5em;
 `;

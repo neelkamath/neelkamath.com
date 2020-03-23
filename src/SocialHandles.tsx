@@ -1,27 +1,25 @@
-// @ts-ignore: Cannot find module
-import GitHubIcon from './header_icons/github.png';
-// @ts-ignore: Cannot find module.
-import GmailIcon from './header_icons/gmail.png';
-// @ts-ignore: Cannot find module.
-import LinkedInIcon from './header_icons/linkedin.png';
-// @ts-ignore: Cannot find module.
-import HackerRankIcon from './header_icons/hackerrank.png';
-// @ts-ignore: Cannot find module.
-import StackOverflowIcon from './header_icons/stackoverflow.png';
-// @ts-ignore: Cannot find module.
-import CodeStatsIcon from './header_icons/code_stats.svg';
-import React from 'react';
-import styled from 'styled-components';
+import React, {ReactElement} from 'react';
 import SocialHandle from './SocialHandle';
+// @ts-ignore: Cannot find module.
+import GitHubIcon from './social_handles/github.png';
+// @ts-ignore: Cannot find module.
+import GmailIcon from './social_handles/gmail.png';
+// @ts-ignore: Cannot find module.
+import LinkedInIcon from './social_handles/linkedin.png';
+// @ts-ignore: Cannot find module.
+import HackerRankIcon from './social_handles/hackerrank.png';
+// @ts-ignore: Cannot find module.
+import StackOverflowIcon from './social_handles/stackoverflow.png';
+// @ts-ignore: Cannot find module.
+import CodeStatsIcon from './social_handles/code_stats.svg';
 
-export default function Header() {
+export default function SocialHandles(): ReactElement {
     return (
-        <Div>
-            Neel Kamath
-            <br/>
+        <>
             <SocialHandle href='https://github.com/neelkamath' alt='GitHub' img={GitHubIcon}/>
             <SocialHandle href='mailto:neelkamathonline@gmail.com' alt='email' img={GmailIcon}/>
             <SocialHandle href='https://www.linkedin.com/in/neelkamath/' alt='LinkedIn' img={LinkedInIcon}/>
+            <br/>
             <SocialHandle href='https://www.hackerrank.com/neelkamath' alt='HackerRank' img={HackerRankIcon}/>
             <SocialHandle
                 href='https://stackoverflow.com/users/6354805/neel-kamath'
@@ -29,19 +27,6 @@ export default function Header() {
                 img={StackOverflowIcon}
             />
             <SocialHandle href='https://codestats.net/users/neelkamath' alt='Code::Stats' img={CodeStatsIcon}/>
-        </Div>
+        </>
     );
 }
-
-const Div = styled.div`
-    text-align: center;
-    background-color: white;
-    border-radius: 1em;
-    color: black;
-    font-size: 2.5em;
-    font-weight: bolder;
-    justify-content: center;
-    margin: 0.5em;
-    margin-top: 8em;
-    padding: 0.25em;
-`;
