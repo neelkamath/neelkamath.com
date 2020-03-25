@@ -17,13 +17,13 @@ export default function App(): ReactElement {
 
 const Div = styled.div`
     @media only screen and (min-width: 375px) {
-        margin-top: 12.5em;
+        margin-top: 13em;
     }
     @media only screen and (min-width: 768px) {
         margin-top: 17.5em;
     }
     text-align: center;
-    background-image: radial-gradient(rgba(0, 233, 255, 40%), rgba(2, 18, 27, 1%));
+    background-image: radial-gradient(rgba(0, 233, 255, 50%), rgba(2, 18, 27, 1%));
     margin-top: 8.5em;
     padding: 0.1em 0;
 `;
