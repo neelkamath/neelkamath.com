@@ -17,6 +17,9 @@ export default function App(): ReactElement {
 
 const Div = styled.div`
     @media only screen and (min-width: 375px) {
+        margin-top: 12.5em;
+    }
+    @media only screen and (min-width: 768px) {
         margin-top: 17.5em;
     }
     text-align: center;
