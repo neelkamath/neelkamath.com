@@ -20,12 +20,7 @@ const Div = styled.div`
         margin-top: 17.5em;
     }
     text-align: center;
-    background-image: linear-gradient(
-        -90deg, 
-        rgba(2, 18, 27, 0.25), 
-        rgba(0, 233, 255, 0.5), 
-        rgba(2, 18, 27, 0.25)
-    );
+    background-image: radial-gradient(rgba(0, 233, 255, 40%), rgba(2, 18, 27, 1%));
     margin-top: 8.5em;
     padding: 0.1em 0;
 `;
