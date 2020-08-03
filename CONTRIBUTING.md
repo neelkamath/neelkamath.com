@@ -1,27 +1,22 @@
 # Contributing
 
-## Forking the Repository
-
-If you want, you can deploy the site to [Netlify](http://netlify.com/). The configuration will automatically be picked up from the [`netlify.toml`](netlify.toml) file.
-
 ## Installation
 
-1. Install [node.js v12](https://nodejs.org/en/download/).
+1. Install the latest [node.js LTS](https://nodejs.org/en/download/).
 1. Clone the repository using one of the following methods.
-    - SSH: `git clone git@github.com:neelkamath/neelkamath.github.io.git`
-    - HTTPS: `git clone https://github.com/neelkamath/neelkamath.github.io.git`
-1. `cd neelkamath.github.io`
+    - SSH: `git clone git@github.com:neelkamath/neelkamath.com.git`
+    - HTTPS: `git clone https://github.com/neelkamath/neelkamath.com.git`
+1. `cd neelkamath.com`
 1. `npm i`
 
 ## Developing
-
-Use the [`ExternalLink`](src/ExternalLink.tsx) component for links which open in a new tab.
 
 ### Development
 
 ```
 npm run dev
 ```
+
 Starts the development server on http://localhost:1234 with hot module replacement enabled.
 
 ### Production
@@ -29,6 +24,7 @@ Starts the development server on http://localhost:1234 with hot module replaceme
 ```
 npm run build
 ```
+
 Saves the production build to the `dist` directory.
 
 ### Styles

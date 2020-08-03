@@ -9,7 +9,7 @@ export default function App(): ReactElement {
             <h1>Neel Kamath</h1>
             <SocialHandles/>
             <h2>
-                <ExternalLink href='https://bit.ly/2ZGZ4XH'>Résumé</ExternalLink>
+                <ExternalLink href='https://bit.ly/2xfpvrB'>Résumé</ExternalLink>
             </h2>
         </Div>
     );
